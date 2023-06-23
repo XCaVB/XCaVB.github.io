@@ -949,6 +949,41 @@ section {
   color: #2487ce;
 }
 
+.cta .cta-btn2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 800px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 35px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.cta .cta-btn2:hover {
+  background: #fff;
+  color: #2487ce;
+}
+
+.btn-green {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+
+#button-container-1 {
+  text-align: right;
+}
+
+#button-container-2 {
+  text-align: center;
+}
+
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
@@ -1422,6 +1457,117 @@ section {
   background: #f4f9ff;
 }
 
+/*--------------------------------------------------------------
+# Paciente
+--------------------------------------------------------------*/
+
+.paciente {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.paciente h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.paciente h3 span {
+  font-weight: normal;
+}
+
+.paciente .member-info {
+  margin-bottom: 30px;
+}
+
+.paciente .member-info h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #124265;
+}
+
+.paciente .member-info h5 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+.paciente .member-info span {
+  display: block;
+  font-size: 14px;
+  color: #777777;
+  margin-bottom: 10px;
+}
+
+.paciente .member-info p {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777777;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #124265;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-lg-12,
+.col-md-6 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col-lg-4 {
+  flex: 0 0 33.3333333333%;
+  max-width: 33.3333333333%;
+}
+
+@media (max-width: 992px) {
+  .col-lg-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-lg-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+.crear-paciente {
+  margin-top: 10px; /* Ajusta el margen superior según tus necesidades */
+  color: red; /* Cambia el color del texto a tu preferencia */
+  font-weight: bold; /* Añade negrita al texto si deseas */
+  /* Agrega más estilos según tus necesidades */
+}
 
 
 /*--------------------------------------------------------------
@@ -1446,12 +1592,16 @@ section {
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 35px;
+  width: 150px; /* Ancho fijo para el botón */
   border-radius: 5px;
   transition: 0.5s;
   margin-top: 10px;
   border: 2px solid #9633FF;
   color: #9633FF;
+  text-align: center;
+  line-height: 30px; /* Centrar verticalmente el texto */
 }
+
 
 .datos .cta-btn:hover {
   font-family: "Raleway", sans-serif;
